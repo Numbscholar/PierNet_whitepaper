@@ -11,4 +11,5 @@ PierNet is a decentralized mesh network concept that leverages AI and blockchain
 ## Why This Matters:
 This project demonstrates expertise in AI-assisted content creation, technical writing, and decentralized network structuring.
 
- [**Read the Full Whitepaper Here:** [PierNet Technical Whitepaper](https://github.com/Numbscholar/PierNet_whitepaper/blob/main/PierNet_Technical_Whitepaper_v1_Final.docx)INSERT FILE LINK]
+**Read the Full Whitepaper Here:** [PierNet Technical Whitepaper](https://github.com/Numbscholar/PierNet_whitepaper/blob/main/PierNet_Technical_Whitepaper_v1_Final.docx)
+ 
