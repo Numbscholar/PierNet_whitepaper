@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PierNet Whitepaper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 1000px;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>PierNet: A Decentralized, Market-Driven Mesh Network</h1>
+    <p><em>Whitepaper Version: Updated {date.today()}</em></p>
+
+    <h2>1. PierNet Tokenomics</h2>
+    <h3>1.1. Core Principles</h3>
+    <ul>
+        <li><strong>Market-driven economy:</strong> Bandwidth (MB/sec) and hosting prices are dynamic.</li>
+        <li><strong>Node incentives:</strong> Piers (relays) and Harbors (gateways) are rewarded based on performance.</li>
+        <li><strong>No central authority:</strong> Pricing and distribution remain decentralized.</li>
+    </ul>
+
+    <h3>1.2. Token Circulation & Pricing Model</h3>
+    <ul>
+        <li>Tokens are earned by relaying data and hosting content.</li>
+        <li>Users spend tokens for network access, based on speed and congestion.</li>
+        <li><strong>Dynamic pricing model:</strong>
+            <ul>
+                <li>Low demand = cheaper bandwidth.</li>
+                <li>High demand = increased cost per MB/sec.</li>
+                <li>Priority users can pay more for guaranteed speeds.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>2. Governance & DAO Model</h2>
+    <h3>2.1. DAO Role & Limited Intervention</h3>
+    <p>The DAO does not control daily operations but has emergency authority during crises.</p>
+
+    <h3>2.2. DAO Emergency Triggers</h3>
+    <table>
+        <tr>
+            <th>Trigger Event</th>
+            <th>Why It’s a Problem</th>
+            <th>Automated Response</th>
+            <th>DAO Override?</th>
+            <th>Expires in 7 Days?</th>
+        </tr>
+        <tr>
+            <td>Token Value Drops 50%+</td>
+            <td>Market panic, potential collapse</td>
+            <td>Auto buy-back starts</td>
+            <td>✅ Yes</td>
+            <td>✅ Yes</td>
+        </tr>
+        <tr>
+            <td>Token Supply Too Inflated</td>
+            <td>Rewards become worthless</td>
+            <td>Auto fee/burn mechanism</td>
+            <td>✅ Yes</td>
+            <td>✅ Yes</td>
+        </tr>
+        <tr>
+            <td>Majority of Piers Go Offline</td>
+            <td>Network stability at risk</td>
+            <td>Auto reward boost for relayers</td>
+            <td>✅ Yes</td>
+            <td>✅ Yes</td>
+        </tr>
+        <tr>
+            <td>Abnormal Trading Activity</td>
+            <td>Whale manipulation</td>
+            <td>Auto slow-mode on transactions</td>
+            <td>✅ Yes</td>
+            <td>✅ Yes</td>
+        </tr>
+    </table>
+
+    <h2>3. Failsafe Mechanism: Preventing DAO Deadlock</h2>
+    <h3>3.1. What Triggers the Failsafe?</h3>
+    <ul>
+        <li>DAO intervention expires, but the problem persists.</li>
+        <li>DAO vote fails to reach 67% majority.</li>
+        <li>Network collapse detected (e.g., relayers drop below 10%).</li>
+    </ul>
+
+    <h3>3.2. What Happens When the Failsafe Activates?</h3>
+    <ul>
+        <li><strong>Reverts to Standard Algorithmic Control</strong> – Resets rewards, inflation, and pricing.</li>
+        <li><strong>Triggers Emergency Mode (if collapse is near)</strong> – Gradual buy-backs, inflation control, temporary node incentives.</li>
+        <li><strong>DAO Can Regain Control Anytime</strong> – If the DAO votes, it overrides the failsafe.</li>
+    </ul>
+
+    <h2>4. Content Hosting & Network Participation</h2>
+    <h3>4.1. Open & Free Hosting</h3>
+    <ul>
+        <li>No central verification system.</li>
+        <li>No content censorship – nodes choose what they store.</li>
+    </ul>
+
+    <h3>4.2. Self-Regulating Hosting Model</h3>
+    <ul>
+        <li>Popular content survives naturally.</li>
+        <li>Unused content fades out automatically.</li>
+    </ul>
+
+    <h3>4.3. Privacy-Preserving Content Management</h3>
+    <ul>
+        <li>Nodes do not decrypt or inspect content.</li>
+        <li>Content is labeled only by self-declared metadata.</li>
+    </ul>
+
+    <h2>5. Conclusion: The Tao of PierNet</h2>
+    <p>PierNet is designed to flow like a self-sustaining system, adapting to user demand without centralized control. Governance ensures that market forces drive pricing, while failsafes protect against total collapse.</p>
+
+</div>
+
+</body>
+</html>
