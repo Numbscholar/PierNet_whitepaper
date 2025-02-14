@@ -14,4 +14,4 @@ PierNet aims to create a **self-sustaining decentralized network** where users c
 ## Whitepaper
 For a detailed breakdown of PierNet’s architecture, tokenomics, and governance, read the full whitepaper:
 
-📖 [PierNet Technical Whitepaper](./PierNet_Whitepaper.html)
+📖 [PierNet Technical Whitepaper](./PierNet_Whitepaper.pdf)
