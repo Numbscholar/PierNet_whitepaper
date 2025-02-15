@@ -11,16 +11,16 @@ PierNet is a **decentralized mesh network** that allows users to share bandwidth
 
 ## Why PierNet?
 
-ISP Dependence** – Users can create local networks that function independently when needed.
+**ISP Dependence** – Users can create local networks that function independently when needed.
 
 
-Just a VPN or TOR Alternative** – Unlike TOR, AREDN, or VPNs, PierNet enables **real bandwidth sharing** and decentralized expansion.
+**Just a VPN or TOR Alternative** – Unlike TOR, AREDN, or VPNs, PierNet enables **real bandwidth sharing** and decentralized expansion.
 
 
-Participation** – Instead of relying on goodwill, PierNet aligns economic incentives to keep the network running.
+**Participation** – Instead of relying on goodwill, PierNet aligns economic incentives to keep the network running.
 
 
-in Cities & Rural Areas** – Whether offloading ISP traffic in urban centers or sharing Starlink in remote areas, PierNet adapts.
+**in Cities & Rural Areas** – Whether offloading ISP traffic in urban centers or sharing Starlink in remote areas, PierNet adapts.
 
 ## How is PierNet Different?
 
